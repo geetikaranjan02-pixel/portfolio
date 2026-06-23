@@ -208,6 +208,9 @@
         if (resolved) return;
         resolved = true;
 
+        var deskHero = document.querySelector('.desk-hero');
+        if (deskHero) deskHero.classList.add('is-hidden');
+
         notes.forEach(function(note, i){
           var pos = gridPositions[i % gridPositions.length];
           note.style.setProperty('--gx', pos.x);
