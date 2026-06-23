@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — method in the madness</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/tabler-icons.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="topnav" id="topnav">
+  <span class="topnav-mark">MR.</span>
+  <div class="topnav-links">
+    <a href="#process">how I work</a>
+    <a href="#eureka">eureka!</a>
+    <a href="#bsl">blood, sweat &amp; learning</a>
+    <a href="#mba">just MBA things</a>
+    <a href="#contact">say hi</a>
+  </div>
+</nav>
+
+<section class="desk-section" id="desk">
+  <div class="desk-stage" id="deskStage">
+
+    <div class="note note--amber" data-r="-7" style="--gx:8%; --gy:10%;">
+      <p>"why do people buy things they don't need?"</p>
+    </div>
+
+    <div class="note note--pink" data-r="5" style="--gx:62%; --gy:6%;">
+      <p>deck snippet — "the brief said X, the consumer said Y"</p>
+    </div>
+
+    <div class="note note--paper handwritten" data-r="-3" style="--gx:38%; --gy:20%;">
+      <p>method &gt; madness.<br>find the pattern first.</p>
+    </div>
+
+    <div class="note note--teal" data-r="3" style="--gx:14%; --gy:46%;">
+      <div class="note-thumb"></div>
+      <p>deck that closed — Q3</p>
+    </div>
+
+    <div class="coffee-ring" style="--gx:46%; --gy:50%;"></div>
+
+    <div class="note note--coral" data-r="8" style="--gx:64%; --gy:42%;">
+      <p>MBA, term 1 — proudest 9 slides I've made</p>
+    </div>
+
+    <div class="note note--paper handwritten" data-r="-5" style="--gx:30%; --gy:64%;">
+      <p>loved the room.<br>budget said no.</p>
+    </div>
+
+    <div class="note note--amber small" data-r="10" style="--gx:74%; --gy:66%;">
+      <p>secondary research first, always</p>
+    </div>
+
+    <div class="tape" style="--gx:20%; --gy:8%; --r:-25deg;"></div>
+    <div class="tape" style="--gx:58%; --gy:38%; --r:18deg;"></div>
+
+    <div class="desk-hero">
+      <p class="desk-eyebrow">a portfolio, sort of</p>
+      <h1>I find method<br>in the madness.</h1>
+      <button class="desk-cta" id="resolveBtn">
+        <span class="desk-cta-label">untangle this</span>
+        <span class="desk-cta-arrow">→</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="desk-resolved" id="deskResolved">
+    <p class="desk-eyebrow">there it is</p>
+    <h2>Every note had a place.<br>That's kind of the whole pitch.</h2>
+    <p class="desk-resolved-sub">Scroll on — I'll show you the rest the same way I'd show a client: in order, with the thinking left in.</p>
+    <div class="scroll-cue">keep going ↓</div>
+  </div>
+</section>
+
+<section class="intro-section">
+  <div class="intro-grid">
+    <div class="intro-card">
+      <p class="intro-tag">who I am</p>
+      <p class="intro-body">A brand solutions person who's spent two MBA years getting obsessed with one question: <em>why do people actually choose what they choose?</em> I turn briefs into ideas, and ideas into decks that hold up in a room full of people paid to say no.</p>
+    </div>
+    <div class="intro-card intro-card--accent">
+      <p class="intro-tag">what you're probably actually screening for</p>
+      <p class="intro-body">Not a list of tools. You're looking for someone who can sit in messy, contradictory consumer data and walk out with the one insight worth building a campaign around — and who you'd actually want in the room when the client pushes back.</p>
+    </div>
+  </div>
+</section>
+
+<section class="process-section" id="process">
+  <p class="section-eyebrow">how I work</p>
+  <h2 class="section-title">The process behind every deck</h2>
+  <p class="section-sub">This part runs better with sound on. Music is non-negotiable for how I think — so here's the actual playlist mood, and the four steps it plays under.</p>
+
+  <div class="music-player" id="musicPlayer">
+    <button class="music-toggle" id="musicToggle" aria-label="Play background music">
+      <i class="ti ti-player-play" id="musicIcon" aria-hidden="true"></i>
+    </button>
+    <div class="music-meta">
+      <p class="music-title">focus / lo-fi loop</p>
+      <p class="music-sub">what's playing while I work</p>
+    </div>
+    <div class="music-bars" id="musicBars" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+  </div>
+
+  <div class="process-steps">
+
+    <div class="process-step">
+      <div class="process-num">01</div>
+      <div class="process-content">
+        <h3>Secondary research, first</h3>
+        <p>Before I trust a single instinct, I go read everything that already exists — reports, past campaigns, category trends, competitor moves. I want to know what's already been said so I don't repeat it by accident.</p>
+      </div>
+    </div>
+
+    <div class="process-step">
+      <div class="process-num">02</div>
+      <div class="process-content">
+        <h3>Then I go looking for primary proof</h3>
+        <p>Secondary research gives me a hypothesis, not an answer. So I go find real people — surveys, conversations, forums, comment sections — to see if the hypothesis survives contact with actual humans.</p>
+      </div>
+    </div>
+
+    <div class="process-step">
+      <div class="process-num">03</div>
+      <div class="process-content">
+        <h3>Paper, before slides</h3>
+        <p>I don't open PowerPoint first. I write the flow of the deck by hand — what's slide 3 arguing, what's the turn on slide 7, where's the one slide that has to land. The paper is where the story gets honest.</p>
+      </div>
+    </div>
+
+    <div class="process-step">
+      <div class="process-num">04</div>
+      <div class="process-content">
+        <h3>Only then, the deck</h3>
+        <p>Once the logic is sound on paper, building the actual deck is the easy part. It's just dressing an argument I already trust.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="work-section work-section--eureka" id="eureka">
+  <p class="section-eyebrow">work that closed</p>
+  <h2 class="section-title">Eureka!</h2>
+  <p class="section-sub">The decks the room said yes to. Budget approved, work shipped.</p>
+
+  <div class="work-grid">
+    <article class="work-card">
+      <div class="work-thumb work-thumb--coral"></div>
+      <div class="work-card-body">
+        <p class="work-client">Client name · category</p>
+        <h3>Project title goes here</h3>
+        <p class="work-desc">One or two lines on the brief, the insight you found, and the idea it became. Swap this in once you share the real project.</p>
+        <span class="work-tag">closed ✓</span>
+      </div>
+    </article>
+
+    <article class="work-card">
+      <div class="work-thumb work-thumb--teal"></div>
+      <div class="work-card-body">
+        <p class="work-client">Client name · category</p>
+        <h3>Project title goes here</h3>
+        <p class="work-desc">One or two lines on the brief, the insight you found, and the idea it became.</p>
+        <span class="work-tag">closed ✓</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="work-section work-section--bsl" id="bsl">
+  <p class="section-eyebrow">loved by the room, killed by the budget line</p>
+  <h2 class="section-title">Blood, sweat and learning</h2>
+  <p class="section-sub">These didn't close. They still taught me more than most of the ones that did.</p>
+
+  <div class="work-grid">
+    <article class="work-card work-card--quiet">
+      <div class="work-thumb work-thumb--amber"></div>
+      <div class="work-card-body">
+        <p class="work-client">Client name · category</p>
+        <h3>Project title goes here</h3>
+        <p class="work-desc">What the client actually said, what got cut, and what you'd keep doing the same way next time.</p>
+        <span class="work-tag work-tag--quiet">no budget</span>
+      </div>
+    </article>
+
+    <article class="work-card work-card--quiet">
+      <div class="work-thumb work-thumb--pink"></div>
+      <div class="work-card-body">
+        <p class="work-client">Client name · category</p>
+        <h3>Project title goes here</h3>
+        <p class="work-desc">What the client actually said, what got cut, and what you'd keep doing the same way next time.</p>
+        <span class="work-tag work-tag--quiet">no budget</span>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="work-section work-section--mba" id="mba">
+  <p class="section-eyebrow">where it started</p>
+  <h2 class="section-title">Just MBA things</h2>
+  <p class="section-sub">First-year assignments, before any client was real. The thinking is the point here, not the polish.</p>
+
+  <div class="work-grid work-grid--three">
+    <article class="work-card work-card--small">
+      <p class="work-client">Course · term 1</p>
+      <h3>Assignment title</h3>
+      <p class="work-desc">Why this one stuck with you.</p>
+    </article>
+    <article class="work-card work-card--small">
+      <p class="work-client">Course · term 1</p>
+      <h3>Assignment title</h3>
+      <p class="work-desc">Why this one stuck with you.</p>
+    </article>
+    <article class="work-card work-card--small">
+      <p class="work-client">Course · term 1</p>
+      <h3>Assignment title</h3>
+      <p class="work-desc">Why this one stuck with you.</p>
+    </article>
+  </div>
+</section>
+
+<section class="close-section" id="contact">
+  <p class="close-eyebrow">still curious?</p>
+  <h2 class="close-title">Good. That's the job.</h2>
+  <div class="close-links">
+    <a href="mailto:you@email.com" class="close-link">email</a>
+    <a href="#" class="close-link">linkedin</a>
+    <a href="#" class="close-link">résumé ↓</a>
+  </div>
+</section>
+
+<audio id="bgMusic" loop preload="none">
+  <source src="https://cdn.pixabay.com/download/audio/2022/05/27/audio_1808fbf07a.mp3" type="audio/mpeg">
+</audio>
+
+<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,92 @@
+{
+  "personal": {
+    "name": "Geetika Ranjan",
+    "title": "Ms",
+    "email": "you@email.com",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "resume": "resume.pdf"
+  },
+  "hero": {
+    "eyebrow": "a portfolio, sort of",
+    "heading": "I find method in the madness."
+  },
+  "intro": {
+    "whoIAm": {
+      "tag": "who I am",
+      "body": "A brand solutions person who's spent two MBA years getting obsessed with one question: <em>why do people actually choose what they choose?</em> I turn briefs into ideas, and ideas into decks that hold up in a room full of people paid to say no."
+    },
+    "whatYourScreeningFor": {
+      "tag": "what you're probably actually screening for",
+      "body": "Not a list of tools. You're looking for someone who can sit in messy, contradictory consumer data and walk out with the one insight worth building a campaign around — and who you'd actually want in the room when the client pushes back."
+    }
+  },
+  "process": {
+    "eyebrow": "how I work",
+    "heading": "The process behind every deck",
+    "subheading": "This part runs better with sound on. Music is non-negotiable for how I think — so here's the actual playlist mood, and the four steps it plays under."
+  },
+  "eureka": {
+    "eyebrow": "work that closed",
+    "heading": "Eureka!",
+    "subheading": "The decks the room said yes to. Budget approved, work shipped.",
+    "projects": [
+      {
+        "client": "Client name · category",
+        "title": "Project title goes here",
+        "description": "One or two lines on the brief, the insight you found, and the idea it became. Swap this in once you share the real project.",
+        "color": "coral"
+      },
+      {
+        "client": "Client name · category",
+        "title": "Project title goes here",
+        "description": "One or two lines on the brief, the insight you found, and the idea it became.",
+        "color": "teal"
+      }
+    ]
+  },
+  "bloodSweatLearning": {
+    "eyebrow": "loved by the room, killed by the budget line",
+    "heading": "Blood, sweat and learning",
+    "subheading": "These didn't close. They still taught me more than most of the ones that did.",
+    "projects": [
+      {
+        "client": "Client name · category",
+        "title": "Project title goes here",
+        "description": "What the client actually said, what got cut, and what you'd keep doing the same way next time.",
+        "color": "amber"
+      },
+      {
+        "client": "Client name · category",
+        "title": "Project title goes here",
+        "description": "What the client actually said, what got cut, and what you'd keep doing the same way next time.",
+        "color": "pink"
+      }
+    ]
+  },
+  "mbaThings": {
+    "eyebrow": "where it started",
+    "heading": "Just MBA things",
+    "subheading": "First-year assignments, before any client was real. The thinking is the point here, not the polish.",
+    "projects": [
+      {
+        "client": "Course · term 1",
+        "title": "Assignment title",
+        "description": "Why this one stuck with you."
+      },
+      {
+        "client": "Course · term 1",
+        "title": "Assignment title",
+        "description": "Why this one stuck with you."
+      },
+      {
+        "client": "Course · term 1",
+        "title": "Assignment title",
+        "description": "Why this one stuck with you."
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "still curious?",
+    "heading": "Good. That's the job."
+  }
+}
